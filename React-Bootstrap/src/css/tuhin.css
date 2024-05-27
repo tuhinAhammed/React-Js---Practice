@@ -1,0 +1,25 @@
+
+.flex .tuhinButton{
+    padding: 30px 120px;
+    background-color: rgb(206, 1, 1)  !important;
+  }
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px;
+}
+.flexCustom{
+    border: 2px solid black;
+    transition: 1s;
+}
+.tuhinButton:hover{
+    /* background: transparent !important; */
+    background-color: rgb(163, 2, 2)  !important;
+}
+.tuhinButton:active{
+    background-color: rgb(127, 1, 1)  !important;
+    /* padding: 35px 120px; */
+
+    /* transition: 1s; */
+
+}
