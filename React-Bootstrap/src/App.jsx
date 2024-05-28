@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Root from './Components/Root'
+import FormikValidation from './Formik-Validation/FormikValidation'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
@@ -14,8 +15,8 @@ function App() {
 
   return (
     <>
-   <Root/>
-
+   {/* <Root/> */}
+<FormikValidation/>
     </>
   )
 }
